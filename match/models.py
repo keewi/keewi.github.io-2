@@ -22,6 +22,10 @@ class Student(models.Model):
 	is_mentor = models.BooleanField(default=False)
 	grad_year = models.IntegerField()
 
+	# program interest information
+	is_avail = models.IntegerField(default=2)
+	rel_interest = models.CharField(max_length=100)
+
 	# metadata
 	created_date = models.DateTimeField(default=timezone.now)
 
