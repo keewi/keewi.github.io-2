@@ -4,6 +4,9 @@ from .models import University, Student
 from .forms import ApplyForm
 
 # Create your views here.
+def main_home(request):
+	return render(request, 'match/main_home.html')
+
 def student_list(request):
 	students = Student.objects.all()
 	return render(request, 'match/student_list.html', {'students':students})
