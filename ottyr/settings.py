@@ -51,6 +51,8 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+PREPEND_WWW = False # change when pushing to site
+
 ROOT_URLCONF = 'ottyr.urls'
 
 TEMPLATES = [
