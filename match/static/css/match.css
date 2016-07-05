@@ -15,7 +15,7 @@ a.active {
     outline: 0
 }
 .navbar .logo-name {
-	font-size: 30px;
+	font-size: 35px;
 }
 .logo-name {
     font-family: "Azedo", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -23,7 +23,7 @@ a.active {
     color: #ff6600;
     text-transform: uppercase;
     margin: 0;
-    margin-top: -5px;
+    padding-top: 3.5px;
 }
 .logo-large {
     color: #fefefa;
@@ -40,6 +40,7 @@ h6 {
     margin: 0;
 }
 .page-scroll {
+    margin-top: 2.5px;
     color: #ff6600;
 }
 .navbar {
