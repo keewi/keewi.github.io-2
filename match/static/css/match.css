@@ -4,8 +4,8 @@ body{
 	background-color: #fefefa;
 }
 p {
-    font-size: 14px;
-    line-height: 1.75
+    font-size: 16px;
+    line-height: 1.75;
 }
 a,
 a:hover,
@@ -23,7 +23,10 @@ a.active {
     color: #ff6600;
     text-transform: uppercase;
     margin: 0;
-    padding-top: 3.5px;
+    padding-top: 2px;
+}
+.btn .logo-name {
+    color: #fefefa;
 }
 .logo-large {
     color: #fefefa;
@@ -66,11 +69,15 @@ h6 {
     padding: 0;
     text-shadow: none;
 }
-.photo-overlay-button {
+.btn {
     color: #fefefa;
     border: none;
     background-color: #00a287;
     padding: 14px 26px 14px 26px;
+}
+.btn-clear {
+    background: transparent;
+    border: 2px solid #fefefa;
 }
 .photo-overlay-button:hover {
     background-color: #008e77;
@@ -82,3 +89,19 @@ h6 {
 *:focus {
     outline: 0 !important;
 }
+.panel-header {
+    text-align: center;
+}
+.row-default {
+    padding: 70px 15% 70px 15%;
+}
+.row-blue {
+    color: #fefefa;
+    background-color: #00a287;
+    margin: 0;
+}
+.row-orange {
+    background-color: #FFDCC4;
+    margin: 0;
+}
+
